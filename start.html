@@ -207,7 +207,7 @@
                                  '&apiKey='   + apiKey_staticTest;
 
 
-                  document.getElementById("staticOutput").innerText = "Running...";
+                  document.getElementById("staticOutput").innerText = "Running... (may take up to 30 seconds)";
                   doAPICall_Static(formData);
                 }
 
@@ -248,7 +248,7 @@
           <div class="col-sm-7 text-sm-left">
             <p></p>
             <div style="border: 2px solid grey; border-radius: 5px; padding: 10px;">
-            <code id="staticOutput" style="overflow-wrap: anywhere;" >            
+            <code id="staticOutput" style="overflow-wrap: break-word;" >            
               This is an example of running an accessiblity test using a static endpoint from the browser. Test output will appear here after clicking run above           
             </code>
             </div>
@@ -401,7 +401,7 @@
           <div class="col-sm-7 text-sm-left">
             <p></p>
             <div style="border: 2px solid grey; border-radius: 5px; padding: 10px;">
-              <code style="overflow-wrap: anywhere;" id="humanOutput1">            
+              <code style="overflow-wrap: break-word;" id="humanOutput1">            
                 This is an example of running an accessiblity test using a human delegation API from the browser. Test output will appear here after clicking run above           
               </code>
             </div>
@@ -467,7 +467,7 @@
         <div class="row">
           <div class="col-sm-12 hiw-col">
             <h3>What do you like?</h3>
-            <p><a href="">Fill out this survey to help us prioritize what features you need so we can roll them out first</a></p>
+            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdVRGpm57goDWtxQp1cblf6B19nbWuGTDZVwMcuCnKJmldIAQ/viewform">Fill out this survey to help us prioritize what features you need so we can roll them out first</a></p>
           </div>
         </div>
       </div>
